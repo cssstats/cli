@@ -2,7 +2,7 @@
   "name": "cssstats-cli",
   "description": "CLI app for cssstats",
   "author": "John Otander",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "main": "cli.js",
   "files": [
     "cli.js"

@@ -9,13 +9,13 @@ const write = require('write-file-stdout')
 
 const cli = meow(`
   Usage
-    $ cssstats <input.css> <output.scss>
+    $ cssstats <input.css> <output.json>
 
   Example
     $ cssstats --help
-    $ cssstats input.css output.scss
-    $ cssstats input.css > output.scss
-    $ cssstats < input.css > output.scss
+    $ cssstats input.css output.json
+    $ cssstats input.css > output.json
+    $ cssstats < input.css > output.json
 `)
 
 const inputFile = cli.input[0]

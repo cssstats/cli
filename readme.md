@@ -7,15 +7,24 @@ CLI app for cssstats
 ## Installation
 
 ```bash
-npm install --save cssstats-cli
+npm i -g cssstats-cli
 ```
 
 ## Usage
 
-```javascript
-var cssstatsCli = require('cssstats-cli')
+```sh
+$ cssstats --help
 
-cssstatsCli()  // => true
+  CLI app for cssstats
+
+  Usage
+    $ cssstats <input.css> <output.json>
+
+  Example
+    $ cssstats --help
+    $ cssstats input.css output.json
+    $ cssstats input.css > output.json
+    $ cssstats < input.css > output.json
 ```
 
 ## License
